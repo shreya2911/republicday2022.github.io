@@ -1,0 +1,109 @@
+body{
+    background-color:white;
+}
+.indianflag{
+    margin-left:3pc;
+    margin-top:6pc;
+}
+.flagstand{
+    width: 10px;
+    height: 353px;
+    background: #000;
+    margin-top:8pc;
+    margin-left:3pc;
+    position:relative;
+    box-shadow:0 0 20px black;
+}
+#rect1{
+    width:13pc;
+    height:3pc;
+    background-color:#ff6600;
+    margin-left:3.6pc;
+    margin-top:-22pc;
+    box-shadow:0 0 20px black;
+    }
+
+#rect2{
+    width:13pc;
+    height:3pc;
+    background-color:#fafafa;
+    margin-left:3.6pc;
+    box-shadow:0 20px 0 black;
+}
+#rect3{
+    width:13pc;
+    height:3pc;
+    background-color:#138808;
+    margin-left:3.6pc;
+    box-shadow:0 px 0 black;
+}
+.icon-ashoka-chakra{
+    content: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Ashoka_Chakra.svg);
+    height: 49px;
+    margin-left:4.9pc;
+    animation: spin 3s linear 0s infinite normal;
+}
+@keyframes spin{
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+.thread{
+  width:400px;
+  height:200px;  
+  border:solid 2px #000;
+  border-color:black transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+  margin-left:-5.5pc;
+  margin-top:-5pc;
+  transform: rotate(-90deg);
+}
+
+.plat1{
+    width:8pc;
+    height:3pc;
+    background-color:brown;
+    margin-top:5.2pc;
+    margin-left:2.5pc;
+}
+.plat2{
+    width:13pc;
+    height:3pc;
+    background-color:brown;
+    margin-top:0.2px;
+    margin-left:-1px;
+}
+h1{
+    font-family:Times new roman;
+    animation-name:changecolor;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    background-color:white;
+    text-shadow:0 0 30px ;
+}
+@keyframes changecolor{
+    25%{
+        color:#ff6600;
+    }
+    50%{
+        color:#fafafa;
+    }
+    100%{
+        color:#138808;
+    }
+}
+a{
+  position: absolute;
+  display: block;
+  width: 200px;
+  height:25px;
+  background-color:red;
+  color:white;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  font-size: 4.5vmin;
+  border-radius: 5px;
+  margin-top:200px;
+  font-family:monospace;
+  text-align:center;
+      }

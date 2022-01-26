@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+<link rel="stylesheet" href="style1.css">
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>  
+    </head>
+    <body>
+<div class="indianflag">
+  <div class="flagstand"></div>
+     <div class="contain">
+     <div id="rect1"></div>  
+     <div id="rect2">
+       <i class="icon-ashoka-chakra"></i></div>
+     <div id="rect3"></div></div>
+     <div class="thread"></div></div>
+  <div class="plat1"></div>
+  <div class="plat2"></div>
+  <div class="plat3"></div>
+  
+        <br>
+    <marquee>
+        <h1>Happy Republic Day</h1>
+    </marquee>  
+ 
+        
+        <!-- js section  -->
+<script>
+    swal({
+        title:"Happy Republic Day",
+        text:"Touch on anywhere to feel music"
+    })
+</script>   
+ <script>
+            var audio = new Audio("https://quz1yp-a.akamaihd.net/downloads/ringtones/files/mp3/jana-gana-mana-instrumental-jatt-fm-44997.mp3");
+
+document.onclick= function() {
+  audio.play();
+}
+   
+</script> 
+    </body>
+</html>
